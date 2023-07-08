@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Profeat</title>
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <a href="index.html" class="header__logo">
+                <img src="image/logo.png" alt="logo">
+            </a>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__descr">
+                    <h1 class="hero__title">Профит.<span class="hero__span">Ежедневник</span></h1>
+                    <p class="hero__text">Одно бесплатное приложение для порядка в жизни</p>
+                    <ul class="hero__list mobile-list mobile">
+                        <li class="hero__item mobile-list__item">
+                            Задачник, который заменит Todoist, Tick-Tick и Microsoft To Do
+                        </li>
+                        <li class="hero__item mobile-list__item">
+                            Календарь, который заменит Google Календарь, Any.do и календарь на телефоне
+                        </li>
+                        <li class="hero__item mobile-list__item">
+                            Заметки, которые заменят «Избранное» и заметки на телефоне
+                        </li>
+                    </ul>
+                    <a href="#" target="_blank" class="hero__link">Установить приложение</a>
+                    <ul class="hero-store store mobile">
+                        <li class="store__item">
+                            <a href="#" target="_blank" class="store__link store__link--google">
+                                <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.910929 0.379486C0.625428 0.742808 0.479752 1.20985 0.503726 1.68499V22.312C0.474246 22.7879 0.620597 23.2571 0.910929 23.6175L0.971576 23.6921L11.7061 12.1384V11.8586L0.971576 0.314209L0.910929 0.379486Z" fill="url(#paint0_linear_243_1578)"/>
+                                    <path d="M15.2582 15.9896L11.7061 12.1383V11.8586L15.2582 8.00732L15.3362 8.06328L19.5902 10.6556C20.8031 11.3923 20.8031 12.6046 19.5902 13.3506L15.3535 15.9429L15.2582 15.9896Z" fill="url(#paint1_linear_243_1578)"/>
+                                    <path d="M15.3625 15.934L11.7063 11.9988L0.911133 23.6178C1.15595 23.8523 1.46932 23.9873 1.79689 23.9992C2.12446 24.0111 2.44557 23.8993 2.70456 23.6831L15.3625 15.934" fill="url(#paint2_linear_243_1578)"/>
+                                    <path d="M15.3625 8.06397L2.70456 0.32418C2.44726 0.104961 2.12639 -0.00960253 1.79838 0.000630735C1.47036 0.010864 1.1562 0.145241 0.911133 0.380131L11.7063 11.9991L15.3625 8.06397Z" fill="url(#paint3_linear_243_1578)"/>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_243_1578" x1="10.7531" y1="1.47051" x2="-4.85212" y2="15.9693" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00A0FF"/>
+                                            <stop offset="0.01" stop-color="#00A1FF"/>
+                                            <stop offset="0.26" stop-color="#00BEFF"/>
+                                            <stop offset="0.51" stop-color="#00D2FF"/>
+                                            <stop offset="0.76" stop-color="#00DFFF"/>
+                                            <stop offset="1" stop-color="#00E3FF"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_243_1578" x1="21.1757" y1="11.9984" x2="0.21775" y2="11.9984" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FFE000"/>
+                                            <stop offset="0.41" stop-color="#FFBD00"/>
+                                            <stop offset="0.78" stop-color="#FFA500"/>
+                                            <stop offset="1" stop-color="#FF9C00"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_243_1578" x1="13.3785" y1="14.1435" x2="-7.78741" y2="33.8001" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF3A44"/>
+                                            <stop offset="1" stop-color="#C31162"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_243_1578" x1="-1.80933" y1="-6.4831" x2="7.63936" y2="2.29565" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#32A071"/>
+                                            <stop offset="0.07" stop-color="#2DA771"/>
+                                            <stop offset="0.48" stop-color="#15CF74"/>
+                                            <stop offset="0.8" stop-color="#06E775"/>
+                                            <stop offset="1" stop-color="#00F076"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                Установить из Google Play
+                            </a>
+                        </li>
+                        <li class="store__item">
+                            <a href="#" target="_blank" class="store__link store__link--apple">
+                                <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.2045 12.7628C17.2166 11.8428 17.4669 10.9408 17.9321 10.1407C18.3972 9.34057 19.0621 8.66831 19.8648 8.18647C19.3548 7.4754 18.6821 6.89021 17.9 6.47739C17.1178 6.06457 16.2479 5.83549 15.3592 5.80834C13.4636 5.61407 11.6258 6.91584 10.6598 6.91584C9.67508 6.91584 8.18777 5.82763 6.58619 5.8598C5.55024 5.89248 4.54062 6.1866 3.65571 6.7135C2.7708 7.2404 2.04077 7.98212 1.53676 8.86638C-0.646507 12.5569 0.982015 17.9808 3.0734 20.9639C4.11977 22.4247 5.34267 24.0564 6.94281 23.9985C8.50865 23.9351 9.09346 23.0237 10.9836 23.0237C12.8561 23.0237 13.4048 23.9985 15.0374 23.9617C16.7176 23.9351 17.7762 22.4945 18.7859 21.0199C19.5377 19.979 20.1162 18.8287 20.5 17.6114C19.5238 17.2083 18.6908 16.5336 18.1048 15.6714C17.5188 14.8091 17.2056 13.7976 17.2045 12.7628V12.7628Z" fill="#E5EBF0"/>
+                                    <path d="M14.1211 3.84726C15.0372 2.77352 15.4885 1.3934 15.3792 0C13.9796 0.143525 12.6867 0.796627 11.7582 1.82918C11.3043 2.3336 10.9566 2.92044 10.735 3.55614C10.5135 4.19184 10.4224 4.86393 10.4671 5.53401C11.1672 5.54104 11.8597 5.3929 12.4927 5.10073C13.1256 4.80855 13.6824 4.37997 14.1211 3.84726Z" fill="#E5EBF0"/>
+                                </svg>
+                                Установить из AppStore
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-demonstration">
+                    <div class="hero-demonstration__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="image/slide-1.png" alt="slide1" class="swiper-slide__img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/slide-2.png" alt="slide2" class="swiper-slide__img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/slide-3.png" alt="slide3" class="swiper-slide__img">
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                    <div class="hero-demonstration__wrap">
+                        <ul class="hero-demonstration__list">
+                            <li class="hero-demonstration__item">
+                                <h2 class="hero-demonstration__title"><span class="hero-demonstration__span">Задачник</span> для порядка в делах</h2>
+                                <p class="hero-demonstration__text">Заменяет: Google Задачи, Todolist, Tick-Tick, Microsoft To Do</p>
+                            </li>
+                            <li class="hero-demonstration__item">
+                                <h2 class="hero-demonstration__title"><span class="hero-demonstration__span">Календарь</span> для порядка во встречах</h2>
+                                <p class="hero-demonstration__text">Заменяет: Google Календарь, календарь на телефоне, Any.do</p>
+                            </li>
+                            <li class="hero-demonstration__item">
+                                <h2 class="hero-demonstration__title"><span class="hero-demonstration__span">Заметки</span> для порядка в мыслях</h2>
+                                <p class="hero-demonstration__text">Заменяет: Заметки, «Избранное» и закладки в браузере</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="about__title">Простое и удобное приложение для ведения дел</h2>
+                <div class="about__wrap">
+
+                        <div class="about-tabs about-mobile mobile">
+                            <div class="about-mobile__swiper swiper" style="height: 100vh">
+                                <div class="swiper-wrapper">
+                                    <div class="about-tabs__slide swiper-slide" >
+                                        <h2 class="about-tabs__btn">Задачник, с которым просто работать</h2>
+                                        <div class="about__pic">
+                                            <img src="image/slide-1.png" alt="slide-1" class="about__img" style="height: 400px">
+                                        </div>
+                                        <ul   class=" about-tabs__content about__list">
+                                            <li class="about__item">Создавайте задачи голосом: надиктуйте <br> задачу, а мы расшифруем аудио и сохраним в виде текста</li>
+                                            <li class="about__item">Ставьте задачи прямо из Telegram: если задачу прислали вам в Telegram, перешлите сообщение в бот, ахалай-махалай, — задача в ежедневнике</li>
+                                            <li class="about__item">Поручайте задачи: подключите к работе коллег и партнеров. Для этого назначьте исполнителя и задача прилетит в его Профит.Ежедневник</li>
+                                        </ul>
+                                    </div>
+                                    <div  class="about-tabs__slide swiper-slide">
+                                        <h2 class="about-tabs__btn">Календарь, которым удобно делиться</h2>
+                                        <div class="about__pic">
+                                            <img src="image/slide-2.png" alt="slide-2" class="about__img" style="height: 400px">
+                                        </div>
+                                        <ul  class="about-tabs__content about__list">
+                                            <li class="about__item">Отправляйте календарь коллегам и друзьям, чтобы договориваться о встречах за 5 минут, а не за час опросов и переписок</li>
+                                            <li class="about__item">Присылайте ссылку на календарь клиентам — они выберут свободный слот и запишутся на встречу самостоятельно</li>
+                                            <li class="about__item">Делитесь календарем спокойно: чем вы заняты известно только вам — остальные видят только свободные слоты</li>
+                                        </ul>
+                                    </div>
+                                    <div class="about-tabs__slide swiper-slide">
+                                        <h2 class="about-tabs__btn">Заметки, которые просто заметки</h2>
+                                        <div class="about__pic">
+                                            <img src="image/slide-3.png" alt="slide-3" class="about__img" style="height: 400px">
+                                        </div>
+                                        <ul class=" about-tabs__content about__list">
+                                            <li class="about__item">Есть вещи, которые прекрасны в своей простоте. Ложка, молоток, «Заметки» в Профит.Ежедневник — вот примеры таких вещей.</li>
+                                            <li class="about__item"> наших «Заметках» все как у всех — кроме одного. Они хранятся в одном приложении с вашим задачником и календарем.</li>
+                                            <li class="about__item">Вам не нужно придумывать куда записать мысль: в «Избранное» или куда-то еще — для всех дел, планов и мыслей есть одно удобное приложение.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    <div class="about-tabs">
+                        <div id="tab-tasks" class="about-tabs__slide about-tabs__slide--active" >
+                            <button data-tab-id="#tab-tasks" data-tab-img="#pic-tasks" class="about-tabs__btn">Задачник, с которым просто работать</button>
+                            <ul   class=" about-tabs__content about__list">
+                                <li class="about__item">Создавайте задачи голосом: надиктуйте <br> задачу, а мы расшифруем аудио и сохраним в виде текста</li>
+                                <li class="about__item">Ставьте задачи прямо из Telegram: если задачу прислали вам в Telegram, перешлите сообщение в бот, ахалай-махалай, — задача в ежедневнике</li>
+                                <li class="about__item">Поручайте задачи: подключите к работе коллег и партнеров. Для этого назначьте исполнителя и задача прилетит в его Профит.Ежедневник</li>
+                            </ul>
+                        </div>
+                        <div id="tab-calendar" class="about-tabs__slide">
+                            <button data-tab-id="#tab-calendar" data-tab-img="#pic-calendar" class="about-tabs__btn">Календарь, которым удобно делиться</button>
+                            <ul  class="about-tabs__content about__list">
+                                <li class="about__item">Отправляйте календарь коллегам и друзьям, чтобы договориваться о встречах за 5 минут, а не за час опросов и переписок</li>
+                                <li class="about__item">Присылайте ссылку на календарь клиентам — они выберут свободный слот и запишутся на встречу самостоятельно</li>
+                                <li class="about__item">Делитесь календарем спокойно: чем вы заняты известно только вам — остальные видят только свободные слоты</li>
+                            </ul>
+                        </div>
+                        <div  id="tab-notes" class="about-tabs__slide">
+                            <button data-tab-id="#tab-notes" data-tab-img="#pic-notes" class="about-tabs__btn">Заметки, которые просто заметки</button>
+                            <ul class=" about-tabs__content about__list">
+                                <li class="about__item">Есть вещи, которые прекрасны в своей простоте. Ложка, молоток, «Заметки» в Профит.Ежедневник — вот примеры таких вещей.</li>
+                                <li class="about__item"> наших «Заметках» все как у всех — кроме одного. Они хранятся в одном приложении с вашим задачником и календарем.</li>
+                                <li class="about__item">Вам не нужно придумывать куда записать мысль: в «Избранное» или куда-то еще — для всех дел, планов и мыслей есть одно удобное приложение.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="about__pic">
+                        <img id="pic-tasks" src="image/tab-1.png" alt="tab-1" class="about__img about__img--active">
+                        <img id="pic-calendar" src="image/tab-2.png" alt="tab-2" class="about__img">
+                        <img id="pic-notes" src="image/tab-3.png" alt="tab-3" class="about__img">
+                    </div>
+                </div>
+
+                <ul class="about__list mobile-list mobile">
+                    <li class="hero__item mobile-list__item">
+                        Создавайте задачи голосом: надиктуйте задачу, а мы расшифруем аудио и сохраним в виде текста
+                    </li>
+                    <li class="hero__item mobile-list__item">
+                        Ставьте задачи прямо из Telegram: если задачу прислали вам в Telegram, перешлите сообщение в бот, ахалай-махалай, — задача в ежедневнике
+                    </li>
+                    <li class="hero__item mobile-list__item">
+                        Поручайте задачи: подключите к работе коллег и партнеров. Для этого назначьте исполнителя и задача прилетит в его Профит.Ежедневник
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="videos">
+        <div class="container">
+            <div class="videos__content">
+                <h2 class="videos__title">Как привести дела в порядок</h2>
+                <ul class="videos__list">
+                    <li id="video-1" class="videos__item">
+                        <img src="image/video-preview.jpg" alt="" class="videos__img">
+                        <button data-video="#video-1" class="videos__btn" onclick="openVideoModal()">
+                            <img src="image/play.svg" alt="play">
+                        </button>
+                    </li>
+                    <li id="video-2" class="videos__item">
+                        <img src="image/video-preview.jpg" alt="" class="videos__img">
+                        <button data-video="#video-2" class="videos__btn" onclick="openVideoModal()">
+                            <img src="image/play.svg" alt="play">
+                        </button>
+                    </li>
+                    <li id="video-3" class="videos__item">
+                        <img src="image/video-preview.jpg" alt="" class="videos__img">
+                        <button data-video="#video-3" class="videos__btn" onclick="openVideoModal()">
+                            <img src="image/play.svg" alt="play">
+                        </button>
+                    </li>
+                    <li id="video-4" class="videos__item">
+                        <img src="image/video-preview.jpg" alt="" class="videos__img">
+                        <button data-video="#video-4" class="videos__btn" onclick="openVideoModal()">
+                            <img src="image/play.svg" alt="play">
+                        </button>
+                    </li>
+                    <li id="video-5" class="videos__item">
+                        <img src="image/video-preview.jpg" alt="" class="videos__img">
+                        <button data-video="#video-5" class="videos__btn" onclick="openVideoModal()">
+                            <img src="image/play.svg" alt="play">
+                        </button>
+                    </li>
+                </ul>
+                <div class="videos-swiper videos__swiper swiper mobile">
+                    <ul class="videos__list swiper-wrapper">
+                        <li  class="videos__item">
+                            <img src="image/video-preview.jpg" alt="" class="videos__img">
+                            <button data-video="#video-1" class="videos__btn" onclick="openVideoModal()">
+                                <img src="image/play.svg" alt="play">
+                            </button>
+                        </li>
+                        <li class="videos__item">
+                            <img src="image/video-preview.jpg" alt="" class="videos__img">
+                            <button data-video="#video-2" class="videos__btn" onclick="openVideoModal()">
+                                <img src="image/play.svg" alt="play">
+                            </button>
+                        </li>
+                        <li class="videos__item">
+                            <img src="image/video-preview.jpg" alt="" class="videos__img">
+                            <button data-video="#video-3" class="videos__btn" onclick="openVideoModal()">
+                                <img src="image/play.svg" alt="play">
+                            </button>
+                        </li>
+                        <li class="videos__item">
+                            <img src="image/video-preview.jpg" alt="" class="videos__img">
+                            <button data-video="#video-4" class="videos__btn" onclick="openVideoModal()">
+                                <img src="image/play.svg" alt="play">
+                            </button>
+                        </li>
+                        <li class="videos__item">
+                            <img src="image/video-preview.jpg" alt="" class="videos__img">
+                            <button data-video="#video-5" class="videos__btn" onclick="openVideoModal()">
+                                <img src="image/play.svg" alt="play">
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rates">
+        <div class="container">
+            <div class="rates__content">
+                <h2 class="rates__title">Тарифы</h2>
+                <ul class="rates__list">
+                    <li class="rates__item">
+                        <h3 class="rates__subtitle">Для индивидуального использования</h3>
+                        <p class="rates__text">Бесплатно</p>
+                        <a href="#" class="rates__link">Установить приложение </a>
+                        <ul class="rates-store store mobile">
+                            <li class="store__item">
+                                <a href="#" target="_blank" class="store__link store__link--google">
+                                    <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.910929 0.379486C0.625428 0.742808 0.479752 1.20985 0.503726 1.68499V22.312C0.474246 22.7879 0.620597 23.2571 0.910929 23.6175L0.971576 23.6921L11.7061 12.1384V11.8586L0.971576 0.314209L0.910929 0.379486Z" fill="url(#paint0_linear_243_1578)"/>
+                                        <path d="M15.2582 15.9896L11.7061 12.1383V11.8586L15.2582 8.00732L15.3362 8.06328L19.5902 10.6556C20.8031 11.3923 20.8031 12.6046 19.5902 13.3506L15.3535 15.9429L15.2582 15.9896Z" fill="url(#paint1_linear_243_1578)"/>
+                                        <path d="M15.3625 15.934L11.7063 11.9988L0.911133 23.6178C1.15595 23.8523 1.46932 23.9873 1.79689 23.9992C2.12446 24.0111 2.44557 23.8993 2.70456 23.6831L15.3625 15.934" fill="url(#paint2_linear_243_1578)"/>
+                                        <path d="M15.3625 8.06397L2.70456 0.32418C2.44726 0.104961 2.12639 -0.00960253 1.79838 0.000630735C1.47036 0.010864 1.1562 0.145241 0.911133 0.380131L11.7063 11.9991L15.3625 8.06397Z" fill="url(#paint3_linear_243_1578)"/>
+                                        <defs>
+                                            <linearGradient id="paint0_linear_243_1578" x1="10.7531" y1="1.47051" x2="-4.85212" y2="15.9693" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#00A0FF"/>
+                                                <stop offset="0.01" stop-color="#00A1FF"/>
+                                                <stop offset="0.26" stop-color="#00BEFF"/>
+                                                <stop offset="0.51" stop-color="#00D2FF"/>
+                                                <stop offset="0.76" stop-color="#00DFFF"/>
+                                                <stop offset="1" stop-color="#00E3FF"/>
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_243_1578" x1="21.1757" y1="11.9984" x2="0.21775" y2="11.9984" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#FFE000"/>
+                                                <stop offset="0.41" stop-color="#FFBD00"/>
+                                                <stop offset="0.78" stop-color="#FFA500"/>
+                                                <stop offset="1" stop-color="#FF9C00"/>
+                                            </linearGradient>
+                                            <linearGradient id="paint2_linear_243_1578" x1="13.3785" y1="14.1435" x2="-7.78741" y2="33.8001" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#FF3A44"/>
+                                                <stop offset="1" stop-color="#C31162"/>
+                                            </linearGradient>
+                                            <linearGradient id="paint3_linear_243_1578" x1="-1.80933" y1="-6.4831" x2="7.63936" y2="2.29565" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#32A071"/>
+                                                <stop offset="0.07" stop-color="#2DA771"/>
+                                                <stop offset="0.48" stop-color="#15CF74"/>
+                                                <stop offset="0.8" stop-color="#06E775"/>
+                                                <stop offset="1" stop-color="#00F076"/>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    Установить из Google Play
+                                </a>
+                            </li>
+                            <li class="store__item">
+                                <a href="#" target="_blank" class="store__link store__link--google">
+                                    <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.2045 12.7628C17.2166 11.8428 17.4669 10.9408 17.9321 10.1407C18.3972 9.34057 19.0621 8.66831 19.8648 8.18647C19.3548 7.4754 18.6821 6.89021 17.9 6.47739C17.1178 6.06457 16.2479 5.83549 15.3592 5.80834C13.4636 5.61407 11.6258 6.91584 10.6598 6.91584C9.67508 6.91584 8.18777 5.82763 6.58619 5.8598C5.55024 5.89248 4.54062 6.1866 3.65571 6.7135C2.7708 7.2404 2.04077 7.98212 1.53676 8.86638C-0.646507 12.5569 0.982015 17.9808 3.0734 20.9639C4.11977 22.4247 5.34267 24.0564 6.94281 23.9985C8.50865 23.9351 9.09346 23.0237 10.9836 23.0237C12.8561 23.0237 13.4048 23.9985 15.0374 23.9617C16.7176 23.9351 17.7762 22.4945 18.7859 21.0199C19.5377 19.979 20.1162 18.8287 20.5 17.6114C19.5238 17.2083 18.6908 16.5336 18.1048 15.6714C17.5188 14.8091 17.2056 13.7976 17.2045 12.7628V12.7628Z" fill="#E5EBF0"/>
+                                        <path d="M14.1211 3.84726C15.0372 2.77352 15.4885 1.3934 15.3792 0C13.9796 0.143525 12.6867 0.796627 11.7582 1.82918C11.3043 2.3336 10.9566 2.92044 10.735 3.55614C10.5135 4.19184 10.4224 4.86393 10.4671 5.53401C11.1672 5.54104 11.8597 5.3929 12.4927 5.10073C13.1256 4.80855 13.6824 4.37997 14.1211 3.84726Z" fill="#E5EBF0"/>
+                                    </svg>
+                                    Установить из AppStore
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="rates__item">
+                        <h3 class="rates__subtitle">Для корпоративного использования</h3>
+                        <p class="rates__text">Не бесплатно</p>
+                        <a href="#" class="rates__link request">Отправить запрос</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <a href="index.html" class="header__logo">
+                <img src="image/logo.png" alt="logo">
+            </a>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Политика конфиденциальности</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Условия использования</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Политика cookie файлов</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__copyright">
+                © Profeat 2023
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay" id="overlayVideo">
+    <div class="video-modal modal">
+        <div class="container">
+            <div class="video-modal__content">
+                <button type="button" class="modal__btn modal__btn--close" onclick="closeVideoModal()">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_169_365)">
+                            <path d="M21.9783 1.38286L20.5715 -0.0222168L10.9548 9.57362L1.33939 -0.0222168L-0.0700684 1.38021L9.54663 10.9774L-0.0687413 20.5719L1.33674 21.9783L10.9548 12.3811L20.5701 21.977L21.9783 20.5745L12.3616 10.9774L21.9783 1.38286Z"
+                                  fill="#292F36"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_169_365">
+                                <rect width="22" height="22" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+                <div class="video-modal__video">
+                    <video width="253"  controls="controls"  preload="none"  autoplay="">
+                        <source src="image/Алиса%20В%20Стране%20Чудес%20И%20Алиса%20В%20Зазеркалье.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
